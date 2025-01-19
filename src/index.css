@@ -1,0 +1,51 @@
+
+
+.question {
+  background: #a09494;
+  border: 2px solid;
+  border-radius: 3px;
+  
+  font-size: 4em;
+  text-align: center;
+}
+
+
+
+.yes {
+  width: 300px;
+
+  border-radius: 60px;
+  background: rgb(4, 131, 36);
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+  .yess {
+    
+    width: 300px;
+    height: 120px;
+    border-radius: 60px;
+    background: rgb(106, 110, 107);
+    font-size: 3rem;
+    cursor: pointer;
+
+ 
+  
+}
+
+.no {
+  width: 300px;
+border-radius: 150px;
+  background: rgb(156, 31, 31);
+  font-size: 3rem;
+  cursor: pointer;
+ 
+}
+
+.answers, .yes .no .yess {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  
+  
+}
